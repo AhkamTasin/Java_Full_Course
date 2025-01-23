@@ -34,9 +34,10 @@
 
     class Integer
     {
-        static parseInt()
+        static int parseInt()
         {
             onno data type ke int e rupantor/ type casting korar system
+            zehetu int e firot dicche, tai return type int
         }
     }
 
@@ -46,6 +47,136 @@
     Integer.parseInt
 
     zekuno data type k int e type casting korar jonne eta use kora hoy...
+     
+    amra ze long in er somoy username, password dei, segula string e thake. 
+    taderke int e nite hole eta use hoy...  
+
+    int x=Integer.parseInt("123")
+    ekta int value return kortese, etake save kortesi int x= diye
+    ekhon ei x=123 hoye zabe..      
+
+    class Integer er moddhe aro ekta function ase
+    class Integer
+    {
+        static int parseInt()
+        {
+            onno data type ke int e rupantor/ type casting korar system
+            zehetu int e firot dicche, tai return type int
+        }
+
+        static Integer valueOf()
+        {
+            type casting kore.
+            object return kore....
+        }
+    }
+
+    Integer i1=Integer.valueOf("123");
+
+    System.out.println(x); Right
+    System.out.println(it); Wrong, evabe lika zabe na...
+
+    aro ekta non static function ase, Integer class er vitor...
+
+    class Integer
+    {
+        static int parseInt()
+        {
+            onno data type ke int e rupantor/ type casting korar system
+            zehetu int e firot dicche, tai return type int
+        }
+
+        static Integer valueOf()
+        {
+            type casting kore.
+            object return kore....
+        }
+        intValue()
+        {
+            int data return kortese....
+        }
+    }
     
+    ekhon ei intValue() ei function k call korte hole object banate hobe... karon eta non static
+    intValue p=new intValue(); 
+    kintu eta korar dorkar nei, karon valueOf theke ze i1 object return peyesi.. setakei use korte parbo...
     
- */
+    int y=i1.intValue();
+
+    Ortat... int x=Integer.parseInt(); eka ze kaj kortese, valueOf() & intValue() duita mile sei ekoi kaj kortese...
+
+    Integer i1=Integer.valueOf("123");
+    int y=i1.intValue();
+
+    ekhon y=123 hobe...
+
+
+    baki sobgular jonneo same vabe ase
+
+    class Double
+    {
+        static valueOf()
+        {
+        
+        }
+        doubleValue()
+        {
+        
+        }
+        static parseDouble()
+        {
+
+        }
+    }
+
+
+    class Float
+    {
+        static Float valueOf()
+        {
+        
+        }
+        doubleValue()
+        {
+            double data type return kore
+        }
+        static parseFloat()
+        {
+            
+        }
+    }
+*/
+
+
+
+class WrapperClassSeven
+{
+    public static void main(String []args)
+    {
+        int x=Integer.parseInt("123");
+
+        Integer i1=Integer.valueOf("12345");
+        int y=i1.intValue();
+
+        /*
+            Binary to decimal/int e nite hole koma, diye base 2 dite hobe...
+            ze number system theke decimal e nite chai, take koma diye likte hobe...  
+        */
+        // Binary-> Decimal
+        int z=Integer.parseInt("110010",2);
+
+        // Octal -> Decimal
+        int a=Integer.parseInt("146437",8);
+
+        // string -> Double
+
+        Double a1=Double.valueOf("567");
+        double b=a1.doubleValue();
+
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
