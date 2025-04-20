@@ -12,7 +12,7 @@ class A{
     void fun3()
     {
         y=45;
-    }
+    }   
 }
 class StaticMemberFour {
     public static void main(String []args)

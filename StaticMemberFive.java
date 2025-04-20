@@ -10,7 +10,7 @@ class A
         y=22;
         x=5;    
     }
-    void fun2()
+    void fun2() 
     {
         System.out.println(x);
     }
