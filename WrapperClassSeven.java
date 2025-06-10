@@ -34,7 +34,7 @@
 
     class Integer
     {
-        static int parseInt()
+        static int parseInt() 
         {
             onno data type ke int e rupantor/ type casting korar system
             zehetu int e firot dicche, tai return type int
@@ -48,7 +48,8 @@
 
     zekuno data type k int e type casting korar jonne eta use kora hoy...
      
-    amra ze long in er somoy username, password dei, segula string e thake. 
+    amra ze lo
+    g in er somoy username, password dei, segula string e thake. 
     taderke int e nite hole eta use hoy...  
 
     int x=Integer.parseInt("123")
@@ -74,7 +75,7 @@
     Integer i1=Integer.valueOf("123");
 
     System.out.println(x); Right
-    System.out.println(it); Wrong, evabe lika zabe na...
+    System.out.println(i1); Wrong, evabe lika zabe na...
 
     aro ekta non static function ase, Integer class er vitor...
 
@@ -123,7 +124,7 @@
         {
         
         }
-        static parseDouble()
+        static double parseDouble()
         {
 
         }

@@ -29,7 +29,7 @@ class CommandLine8 {
             //System.out.println(args[i]);
             s=s+Integer.parseInt(args[i]);
         }
-        s=s/args.length;
+        s=s/args.length;  
         System.out.println("Avarage is "+s);
 
         
